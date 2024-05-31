@@ -1,0 +1,5 @@
+aaa,3
+Maverick,1
+ssss,5
+gmpresle,0
+maverick,2

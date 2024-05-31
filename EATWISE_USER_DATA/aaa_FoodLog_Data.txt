@@ -1,0 +1,62 @@
+FoodLoggerUser [
+userName=
+aaa
+usersGoal=
+Goal [type=Manual, calories=5000, protein=400, fat=700, carbs=900, saturatedFat=500, transFat=1000, fiber=4652, sugar=822, sodium=654, cholesterol=654, calcium=982, potassium=9852, vitaminA=0, vitaminC=0, vitaminD=0, vitaminE=0, vitaminK=0, vitaminB1=0, vitaminB2=0, vitaminB3=0, vitaminB5=0, vitaminB6=0, vitaminB7=0, vitaminB9=0, vitaminB12=0, onlyCheckBasicMacros=false]
+currentDay=
+Day [
+date=2024-04-20, calories=27561812, protein=11, fat=4, carbs=6689113, saturatedFat=3, transFat=0, fiber=3, sugar=3393452, sodium=95, cholesterol=20, calcium=4976736, potassium=340, vitaminA=10355946, vitaminC=90522312, vitaminD=0, vitaminE=0, vitaminK=0, vitaminB1=0, vitaminB2=0, vitaminB3=0, vitaminB5=0, vitaminB6=0, vitaminB7=0, vitaminB9=0, vitaminB12=0, meals=
+Meal [type=Breakfast, foodsThatContainStomachIssues=0, calories=27561662, protein=1, fat=0, carbs=6689095, saturatedFat=0, transFat=0, fiber=3, sugar=3393437, sodium=0, cholesterol=0, calcium=4976516, potassium=0, vitaminA=10355946, vitaminC=90522312, vitaminD=0, vitaminE=0, vitaminK=0, vitaminB1=0, vitaminB2=0, vitaminB3=0, vitaminB5=0, vitaminB6=0, vitaminB7=0, vitaminB9=0, vitaminB12=0, foods=
+Food [name=banana, servingSize=118.0, numberOfServings=1.25, calories=27561572, protein=1, fat=0, carbs=6689074, saturatedFat=0, transFat=0, fiber=3, sugar=3393437, sodium=0, cholesterol=0, calcium=4976516, potassium=0, vitaminA=10355946, vitaminC=90522312, vitaminD=0, vitaminE=0, vitaminK=0, vitaminB1=0, vitaminB2=0, vitaminB3=0, vitaminB5=0, vitaminB6=0, vitaminB7=0, vitaminB9=0, vitaminB12=0, causesStomachIssues=false]
+Food [name=apple, servingSize=0.0, numberOfServings=1.0, calories=90, protein=0, fat=0, carbs=21, saturatedFat=0, transFat=0, fiber=0, sugar=0, sodium=0, cholesterol=0, calcium=0, potassium=0, vitaminA=0, vitaminC=0, vitaminD=0, vitaminE=0, vitaminK=0, vitaminB1=0, vitaminB2=0, vitaminB3=0, vitaminB5=0, vitaminB6=0, vitaminB7=0, vitaminB9=0, vitaminB12=0, causesStomachIssues=false]
+]
+Meal [type=Lunch, foodsThatContainStomachIssues=0, calories=0, protein=0, fat=0, carbs=0, saturatedFat=0, transFat=0, fiber=0, sugar=0, sodium=0, cholesterol=0, calcium=0, potassium=0, vitaminA=0, vitaminC=0, vitaminD=0, vitaminE=0, vitaminK=0, vitaminB1=0, vitaminB2=0, vitaminB3=0, vitaminB5=0, vitaminB6=0, vitaminB7=0, vitaminB9=0, vitaminB12=0, foods=
+]
+Meal [type=Dinner, foodsThatContainStomachIssues=0, calories=0, protein=0, fat=0, carbs=0, saturatedFat=0, transFat=0, fiber=0, sugar=0, sodium=0, cholesterol=0, calcium=0, potassium=0, vitaminA=0, vitaminC=0, vitaminD=0, vitaminE=0, vitaminK=0, vitaminB1=0, vitaminB2=0, vitaminB3=0, vitaminB5=0, vitaminB6=0, vitaminB7=0, vitaminB9=0, vitaminB12=0, foods=
+]
+Meal [type=Snack, foodsThatContainStomachIssues=0, calories=150, protein=10, fat=4, carbs=18, saturatedFat=3, transFat=0, fiber=0, sugar=15, sodium=95, cholesterol=20, calcium=220, potassium=340, vitaminA=0, vitaminC=0, vitaminD=0, vitaminE=0, vitaminK=0, vitaminB1=0, vitaminB2=0, vitaminB3=0, vitaminB5=0, vitaminB6=0, vitaminB7=0, vitaminB9=0, vitaminB12=0, foods=
+Food [name=chobani greek yogurt, servingSize=100.0, numberOfServings=1.0, calories=150, protein=10, fat=4, carbs=18, saturatedFat=3, transFat=0, fiber=0, sugar=15, sodium=95, cholesterol=20, calcium=220, potassium=340, vitaminA=0, vitaminC=0, vitaminD=0, vitaminE=0, vitaminK=0, vitaminB1=0, vitaminB2=0, vitaminB3=0, vitaminB5=0, vitaminB6=0, vitaminB7=0, vitaminB9=0, vitaminB12=0, causesStomachIssues=false]
+]
+]
+foodLog=
+FoodLog [
+usersGoal=
+Goal [type=Manual, calories=5000, protein=400, fat=700, carbs=900, saturatedFat=500, transFat=1000, fiber=4652, sugar=822, sodium=654, cholesterol=654, calcium=982, potassium=9852, vitaminA=0, vitaminC=0, vitaminD=0, vitaminE=0, vitaminK=0, vitaminB1=0, vitaminB2=0, vitaminB3=0, vitaminB5=0, vitaminB6=0, vitaminB7=0, vitaminB9=0, vitaminB12=0, onlyCheckBasicMacros=false],
+firstLoggedDay=2024-04-17,
+containsALog=true,
+daysWereGoalsWhereMet=0,
+daysCounter=3,
+log=
+Day [
+date=2024-04-17, calories=0, protein=0, fat=0, carbs=0, saturatedFat=0, transFat=0, fiber=0, sugar=0, sodium=0, cholesterol=0, calcium=0, potassium=0, vitaminA=0, vitaminC=0, vitaminD=0, vitaminE=0, vitaminK=0, vitaminB1=0, vitaminB2=0, vitaminB3=0, vitaminB5=0, vitaminB6=0, vitaminB7=0, vitaminB9=0, vitaminB12=0, meals=
+Meal [type=Breakfast, foodsThatContainStomachIssues=0, calories=0, protein=0, fat=0, carbs=0, saturatedFat=0, transFat=0, fiber=0, sugar=0, sodium=0, cholesterol=0, calcium=0, potassium=0, vitaminA=0, vitaminC=0, vitaminD=0, vitaminE=0, vitaminK=0, vitaminB1=0, vitaminB2=0, vitaminB3=0, vitaminB5=0, vitaminB6=0, vitaminB7=0, vitaminB9=0, vitaminB12=0, foods=
+]
+Meal [type=Lunch, foodsThatContainStomachIssues=0, calories=0, protein=0, fat=0, carbs=0, saturatedFat=0, transFat=0, fiber=0, sugar=0, sodium=0, cholesterol=0, calcium=0, potassium=0, vitaminA=0, vitaminC=0, vitaminD=0, vitaminE=0, vitaminK=0, vitaminB1=0, vitaminB2=0, vitaminB3=0, vitaminB5=0, vitaminB6=0, vitaminB7=0, vitaminB9=0, vitaminB12=0, foods=
+]
+Meal [type=Dinner, foodsThatContainStomachIssues=0, calories=0, protein=0, fat=0, carbs=0, saturatedFat=0, transFat=0, fiber=0, sugar=0, sodium=0, cholesterol=0, calcium=0, potassium=0, vitaminA=0, vitaminC=0, vitaminD=0, vitaminE=0, vitaminK=0, vitaminB1=0, vitaminB2=0, vitaminB3=0, vitaminB5=0, vitaminB6=0, vitaminB7=0, vitaminB9=0, vitaminB12=0, foods=
+]
+Meal [type=Snack, foodsThatContainStomachIssues=0, calories=0, protein=0, fat=0, carbs=0, saturatedFat=0, transFat=0, fiber=0, sugar=0, sodium=0, cholesterol=0, calcium=0, potassium=0, vitaminA=0, vitaminC=0, vitaminD=0, vitaminE=0, vitaminK=0, vitaminB1=0, vitaminB2=0, vitaminB3=0, vitaminB5=0, vitaminB6=0, vitaminB7=0, vitaminB9=0, vitaminB12=0, foods=
+]
+]Day [
+date=2024-04-16, calories=0, protein=0, fat=0, carbs=0, saturatedFat=0, transFat=0, fiber=0, sugar=0, sodium=0, cholesterol=0, calcium=0, potassium=0, vitaminA=0, vitaminC=0, vitaminD=0, vitaminE=0, vitaminK=0, vitaminB1=0, vitaminB2=0, vitaminB3=0, vitaminB5=0, vitaminB6=0, vitaminB7=0, vitaminB9=0, vitaminB12=0, meals=
+Meal [type=Breakfast, foodsThatContainStomachIssues=0, calories=0, protein=0, fat=0, carbs=0, saturatedFat=0, transFat=0, fiber=0, sugar=0, sodium=0, cholesterol=0, calcium=0, potassium=0, vitaminA=0, vitaminC=0, vitaminD=0, vitaminE=0, vitaminK=0, vitaminB1=0, vitaminB2=0, vitaminB3=0, vitaminB5=0, vitaminB6=0, vitaminB7=0, vitaminB9=0, vitaminB12=0, foods=
+]
+Meal [type=Lunch, foodsThatContainStomachIssues=0, calories=0, protein=0, fat=0, carbs=0, saturatedFat=0, transFat=0, fiber=0, sugar=0, sodium=0, cholesterol=0, calcium=0, potassium=0, vitaminA=0, vitaminC=0, vitaminD=0, vitaminE=0, vitaminK=0, vitaminB1=0, vitaminB2=0, vitaminB3=0, vitaminB5=0, vitaminB6=0, vitaminB7=0, vitaminB9=0, vitaminB12=0, foods=
+]
+Meal [type=Dinner, foodsThatContainStomachIssues=0, calories=0, protein=0, fat=0, carbs=0, saturatedFat=0, transFat=0, fiber=0, sugar=0, sodium=0, cholesterol=0, calcium=0, potassium=0, vitaminA=0, vitaminC=0, vitaminD=0, vitaminE=0, vitaminK=0, vitaminB1=0, vitaminB2=0, vitaminB3=0, vitaminB5=0, vitaminB6=0, vitaminB7=0, vitaminB9=0, vitaminB12=0, foods=
+]
+Meal [type=Snack, foodsThatContainStomachIssues=0, calories=0, protein=0, fat=0, carbs=0, saturatedFat=0, transFat=0, fiber=0, sugar=0, sodium=0, cholesterol=0, calcium=0, potassium=0, vitaminA=0, vitaminC=0, vitaminD=0, vitaminE=0, vitaminK=0, vitaminB1=0, vitaminB2=0, vitaminB3=0, vitaminB5=0, vitaminB6=0, vitaminB7=0, vitaminB9=0, vitaminB12=0, foods=
+]
+]Day [
+date=2024-04-14, calories=0, protein=0, fat=0, carbs=0, saturatedFat=0, transFat=0, fiber=0, sugar=0, sodium=0, cholesterol=0, calcium=0, potassium=0, vitaminA=0, vitaminC=0, vitaminD=0, vitaminE=0, vitaminK=0, vitaminB1=0, vitaminB2=0, vitaminB3=0, vitaminB5=0, vitaminB6=0, vitaminB7=0, vitaminB9=0, vitaminB12=0, meals=
+Meal [type=Breakfast, foodsThatContainStomachIssues=0, calories=0, protein=0, fat=0, carbs=0, saturatedFat=0, transFat=0, fiber=0, sugar=0, sodium=0, cholesterol=0, calcium=0, potassium=0, vitaminA=0, vitaminC=0, vitaminD=0, vitaminE=0, vitaminK=0, vitaminB1=0, vitaminB2=0, vitaminB3=0, vitaminB5=0, vitaminB6=0, vitaminB7=0, vitaminB9=0, vitaminB12=0, foods=
+]
+Meal [type=Lunch, foodsThatContainStomachIssues=0, calories=0, protein=0, fat=0, carbs=0, saturatedFat=0, transFat=0, fiber=0, sugar=0, sodium=0, cholesterol=0, calcium=0, potassium=0, vitaminA=0, vitaminC=0, vitaminD=0, vitaminE=0, vitaminK=0, vitaminB1=0, vitaminB2=0, vitaminB3=0, vitaminB5=0, vitaminB6=0, vitaminB7=0, vitaminB9=0, vitaminB12=0, foods=
+]
+Meal [type=Dinner, foodsThatContainStomachIssues=0, calories=0, protein=0, fat=0, carbs=0, saturatedFat=0, transFat=0, fiber=0, sugar=0, sodium=0, cholesterol=0, calcium=0, potassium=0, vitaminA=0, vitaminC=0, vitaminD=0, vitaminE=0, vitaminK=0, vitaminB1=0, vitaminB2=0, vitaminB3=0, vitaminB5=0, vitaminB6=0, vitaminB7=0, vitaminB9=0, vitaminB12=0, foods=
+]
+Meal [type=Snack, foodsThatContainStomachIssues=0, calories=0, protein=0, fat=0, carbs=0, saturatedFat=0, transFat=0, fiber=0, sugar=0, sodium=0, cholesterol=0, calcium=0, potassium=0, vitaminA=0, vitaminC=0, vitaminD=0, vitaminE=0, vitaminK=0, vitaminB1=0, vitaminB2=0, vitaminB3=0, vitaminB5=0, vitaminB6=0, vitaminB7=0, vitaminB9=0, vitaminB12=0, foods=
+]
+]
+]
+]

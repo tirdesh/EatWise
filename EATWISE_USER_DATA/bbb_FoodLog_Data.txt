@@ -1,0 +1,29 @@
+FoodLoggerUser [
+userName=
+bbb
+usersGoal=
+Goal [type=Regular, calories=0, protein=0, fat=0, carbs=0, saturatedFat=0, transFat=0, fiber=0, sugar=0, sodium=0, cholesterol=0, calcium=0, potassium=0, vitaminA=0, vitaminC=0, vitaminD=0, vitaminE=0, vitaminK=0, vitaminB1=0, vitaminB2=0, vitaminB3=0, vitaminB5=0, vitaminB6=0, vitaminB7=0, vitaminB9=0, vitaminB12=0, onlyCheckBasicMacros=false]
+currentDay=
+Day [
+date=2024-04-16, calories=0, protein=0, fat=0, carbs=0, saturatedFat=0, transFat=0, fiber=0, sugar=0, sodium=0, cholesterol=0, calcium=0, potassium=0, vitaminA=0, vitaminC=0, vitaminD=0, vitaminE=0, vitaminK=0, vitaminB1=0, vitaminB2=0, vitaminB3=0, vitaminB5=0, vitaminB6=0, vitaminB7=0, vitaminB9=0, vitaminB12=0, meals=
+Meal [type=Breakfast, foodsThatContainStomachIssues=0, calories=0, protein=0, fat=0, carbs=0, saturatedFat=0, transFat=0, fiber=0, sugar=0, sodium=0, cholesterol=0, calcium=0, potassium=0, vitaminA=0, vitaminC=0, vitaminD=0, vitaminE=0, vitaminK=0, vitaminB1=0, vitaminB2=0, vitaminB3=0, vitaminB5=0, vitaminB6=0, vitaminB7=0, vitaminB9=0, vitaminB12=0, foods=
+]
+Meal [type=Lunch, foodsThatContainStomachIssues=0, calories=0, protein=0, fat=0, carbs=0, saturatedFat=0, transFat=0, fiber=0, sugar=0, sodium=0, cholesterol=0, calcium=0, potassium=0, vitaminA=0, vitaminC=0, vitaminD=0, vitaminE=0, vitaminK=0, vitaminB1=0, vitaminB2=0, vitaminB3=0, vitaminB5=0, vitaminB6=0, vitaminB7=0, vitaminB9=0, vitaminB12=0, foods=
+]
+Meal [type=Dinner, foodsThatContainStomachIssues=0, calories=0, protein=0, fat=0, carbs=0, saturatedFat=0, transFat=0, fiber=0, sugar=0, sodium=0, cholesterol=0, calcium=0, potassium=0, vitaminA=0, vitaminC=0, vitaminD=0, vitaminE=0, vitaminK=0, vitaminB1=0, vitaminB2=0, vitaminB3=0, vitaminB5=0, vitaminB6=0, vitaminB7=0, vitaminB9=0, vitaminB12=0, foods=
+]
+Meal [type=Snack, foodsThatContainStomachIssues=0, calories=0, protein=0, fat=0, carbs=0, saturatedFat=0, transFat=0, fiber=0, sugar=0, sodium=0, cholesterol=0, calcium=0, potassium=0, vitaminA=0, vitaminC=0, vitaminD=0, vitaminE=0, vitaminK=0, vitaminB1=0, vitaminB2=0, vitaminB3=0, vitaminB5=0, vitaminB6=0, vitaminB7=0, vitaminB9=0, vitaminB12=0, foods=
+]
+]
+foodLog=
+FoodLog [
+usersGoal=
+Goal [type=Regular, calories=0, protein=0, fat=0, carbs=0, saturatedFat=0, transFat=0, fiber=0, sugar=0, sodium=0, cholesterol=0, calcium=0, potassium=0, vitaminA=0, vitaminC=0, vitaminD=0, vitaminE=0, vitaminK=0, vitaminB1=0, vitaminB2=0, vitaminB3=0, vitaminB5=0, vitaminB6=0, vitaminB7=0, vitaminB9=0, vitaminB12=0, onlyCheckBasicMacros=false],
+firstLoggedDay=No food logs yet,
+containsALog=false,
+daysWereGoalsWhereMet=0,
+daysCounter=0,
+log=
+No days logged
+]
+]

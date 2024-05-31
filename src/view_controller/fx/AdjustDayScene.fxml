@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="adjustDayPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="900.0" styleClass="backgrounds" stylesheets="@LoginDesign.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view_controller.fx.AdjustDayController">
+	<children>
+		<Text fx:id="headerText" layoutX="474.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EatWise" textAlignment="CENTER" wrappingWidth="172.6083984375">
+			<font>
+				<Font name="Calibri" size="39.0" />
+			</font>
+		</Text>
+		<ImageView fitHeight="63.0" fitWidth="53.0" layoutX="666.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+			<image>
+				<Image url="@../../../EATWISEGUI_Images/fruitBasket.png" />
+			</image>
+		</ImageView>
+		<ImageView fitHeight="63.0" fitWidth="53.0" layoutX="403.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+			<image>
+				<Image url="@../../../EATWISEGUI_Images/fruitBasket.png" />
+			</image>
+		</ImageView>
+
+
+		<Rectangle fx:id="dashslide" arcHeight="5.0" arcWidth="5.0" fill="#13a851" height="900.0" layoutX="-7.0" layoutY="-2.0" stroke="#13a851" strokeType="INSIDE" width="257.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="-0.0" AnchorPane.rightAnchor="650.0" AnchorPane.topAnchor="0.0" />
+		<Button fx:id="dashBoardIcon" layoutX="54.0" layoutY="136.0" mnemonicParsing="false" onAction="#dashBoard" prefHeight="40.0" prefWidth="150.0" stylesheets="@LoginDesign.css" text="Dashboard">
+         <styleClass>
+            <String fx:value="buttons" />
+            <String fx:value="shadows" />
+         </styleClass></Button>
+		<Button fx:id="viewLogIcon" layoutX="54.0" layoutY="284.0" mnemonicParsing="false" onAction="#viewLog" prefHeight="40.0" prefWidth="150.0" stylesheets="@LoginDesign.css" text="View Log">
+         <styleClass>
+            <String fx:value="buttons" />
+            <String fx:value="shadows" />
+         </styleClass></Button>
+		<Button fx:id="adjustDayIcon" layoutX="54.0" layoutY="214.0" mnemonicParsing="false" onAction="#adjustDay" prefHeight="40.0" prefWidth="150.0" stylesheets="@LoginDesign.css" text="Day Log">
+         <styleClass>
+            <String fx:value="buttons" />
+            <String fx:value="shadows" />
+         </styleClass></Button>
+		<Button fx:id="adjustGoalIcon" layoutX="54.0" layoutY="358.0" mnemonicParsing="false" onAction="#adjustGoal" prefHeight="40.0" prefWidth="150.0" stylesheets="@LoginDesign.css" text="Modify Goal">
+         <styleClass>
+            <String fx:value="buttons" />
+            <String fx:value="shadows" />
+         </styleClass></Button>
+		<Button fx:id="logoutIcon" layoutX="23.0" layoutY="822.0" mnemonicParsing="false" onAction="#logout" prefHeight="47.0" prefWidth="211.0" stylesheets="@LoginDesign.css" text="Logout">
+         <styleClass>
+            <String fx:value="buttons" />
+            <String fx:value="shadows" />
+         </styleClass></Button>
+		<Button fx:id="nutrimatchIcon" layoutX="54.0" layoutY="520.0" mnemonicParsing="false" onAction="#nutriMatch" prefHeight="40.0" prefWidth="150.0" stylesheets="@LoginDesign.css" text="Nutri Match">
+         <styleClass>
+            <String fx:value="buttons" />
+            <String fx:value="shadows" />
+         </styleClass></Button>
+		<Button fx:id="Water_Intake_Tracker" layoutX="54.0" layoutY="435.0" mnemonicParsing="false" onAction="#handlewaterIntakeTrackererAction" prefHeight="40.0" prefWidth="150.0" stylesheets="@LoginDesign.css" text="Water Intake Tracker">
+         <styleClass>
+            <String fx:value="buttons" />
+            <String fx:value="shadows" />
+         </styleClass></Button>
+      <Label fx:id="PageTitle" layoutX="11.0" layoutY="59.0" prefHeight="51.0" prefWidth="227.0" stylesheets="@LoginDesign.css" text="    Day Log" textAlignment="CENTER" AnchorPane.leftAnchor="11.0" AnchorPane.rightAnchor="662.0" AnchorPane.topAnchor="59.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+         <styleClass>
+            <String fx:value="labelHeadsDashboards" />
+            <String fx:value="loginpageAnchor" />
+         </styleClass>
+      </Label>
+      <Button fx:id="nutrisortIcon" layoutX="54.0" layoutY="600.0" mnemonicParsing="false" onAction="#nutriSort" prefHeight="40.0" prefWidth="150.0" stylesheets="@LoginDesign.css" text="Nutri Sort">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <styleClass>
+            <String fx:value="buttons" />
+            <String fx:value="shadows" />
+         </styleClass>
+      </Button>   
+
+		<ListView fx:id="foodListView" fixedCellSize="30.0" layoutX="527.0" layoutY="141.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="255.0" prefWidth="353.0" stylesheets="@LoginDesign.css">
+			<cursor>
+				<Cursor fx:constant="DEFAULT" />
+			</cursor>
+		</ListView>
+		<Button layoutX="275.0" layoutY="162.0" mnemonicParsing="false" onAction="#adjustBreakfast" prefHeight="50.0" prefWidth="100.0" text="Breakfast Icon" />
+		<Button layoutX="391.0" layoutY="162.0" mnemonicParsing="false" onAction="#adjustLunch" prefHeight="50.0" prefWidth="100.0" text="Lunch Icon" />
+		<Button layoutX="277.0" layoutY="245.0" mnemonicParsing="false" onAction="#adjustDinner" prefHeight="50.0" prefWidth="100.0" text="Dinner Icon" />
+		<Button layoutX="390.0" layoutY="245.0" mnemonicParsing="false" onAction="#adjustSnack" prefHeight="50.0" prefWidth="100.0" text="Snack Icon" />
+		<Label fx:id="mealAdjustmentHintLabel" alignment="CENTER" layoutX="273.0" layoutY="124.0" prefHeight="30.0" prefWidth="237.0" text="(Select the meal you would like to adjust)" />
+		<Label fx:id="mealMacroCountLabel" alignment="CENTER" layoutX="536.0" layoutY="103.0" prefHeight="37.0" prefWidth="334.0">
+			<font>
+				<Font size="14.0" />
+			</font>
+		</Label>
+		<Label fx:id="mealTypeLabel" alignment="CENTER" layoutX="536.0" layoutY="73.0" prefHeight="17.0" prefWidth="334.0">
+			<font>
+				<Font size="18.0" />
+			</font>
+		</Label>
+		<Label fx:id="foodNameLabel" layoutX="484.0" layoutY="469.0" prefHeight="30.0" prefWidth="164.0">
+			<font>
+				<Font size="18.0" />
+			</font>
+		</Label>
+		<Label layoutX="483.0" layoutY="506.0" prefHeight="17.0" prefWidth="91.0" text="Calories" />
+		<Label layoutX="483.0" layoutY="533.0" prefHeight="17.0" prefWidth="91.0" text="Protien (g)" />
+		<Label layoutX="483.0" layoutY="560.0" prefHeight="17.0" prefWidth="91.0" text="Fat (g)" />
+		<Label layoutX="483.0" layoutY="587.0" prefHeight="17.0" prefWidth="78.0" text="Carbs (g)" />
+		<Label fx:id="foodCarbsLabel1" layoutX="483.0" layoutY="614.0" prefHeight="17.0" prefWidth="91.0" text="Saturated Fat (g)" />
+		<Label fx:id="foodCarbsLabel11" layoutX="483.0" layoutY="641.0" prefHeight="17.0" prefWidth="91.0" text="Trans Fat (g)" />
+		<Label fx:id="foodCarbsLabel12" layoutX="483.0" layoutY="668.0" prefHeight="17.0" prefWidth="91.0" text="Fiber (g)" />
+		<Label fx:id="foodCarbsLabel13" layoutX="483.0" layoutY="695.0" prefHeight="17.0" prefWidth="91.0" text="Sugar (g)" />
+		<Label fx:id="foodCarbsLabel14" layoutX="483.0" layoutY="722.0" prefHeight="17.0" prefWidth="91.0" text="Sodium (mg)" />
+		<Label fx:id="foodCarbsLabel15" layoutX="483.0" layoutY="749.0" prefHeight="17.0" prefWidth="91.0" text="Cholesterol (mg)" />
+		<Label fx:id="foodCarbsLabel16" layoutX="483.0" layoutY="776.0" prefHeight="17.0" prefWidth="91.0" text="Calcium (mg)" />
+		<Label fx:id="foodCarbsLabel17" layoutX="483.0" layoutY="803.0" prefHeight="17.0" prefWidth="91.0" text="Potassium (mg)" />
+		<Label fx:id="foodCarbsLabel18" layoutX="663.0" layoutY="833.0" prefHeight="17.0" prefWidth="95.0" text="Vitamin B12  (mcg)" />
+		<Label fx:id="foodCarbsLabel19" layoutX="665.0" layoutY="506.0" prefHeight="17.0" prefWidth="95.0" text="Vitamin A (mcg)" />
+		<Label fx:id="foodCarbsLabel110" layoutX="665.0" layoutY="533.0" prefHeight="17.0" prefWidth="95.0" text="Vitamin C (mcg)" />
+		<Label fx:id="foodCarbsLabel111" layoutX="664.0" layoutY="560.0" prefHeight="17.0" prefWidth="95.0" text="Vitamin D (mcg)" />
+		<Label fx:id="foodCarbsLabel112" layoutX="665.0" layoutY="587.0" prefHeight="17.0" prefWidth="95.0" text="Vitamin E (mcg)" />
+		<Label fx:id="foodCarbsLabel113" layoutX="665.0" layoutY="614.0" prefHeight="17.0" prefWidth="95.0" text="Vitamin K (mcg)" />
+		<Label fx:id="foodCarbsLabel114" layoutX="665.0" layoutY="641.0" prefHeight="17.0" prefWidth="95.0" text="Vitamin B1 (mcg)" />
+		<Label fx:id="foodCarbsLabel115" layoutX="667.0" layoutY="668.0" prefHeight="17.0" prefWidth="102.0" text="Vitamin B2 (mcg)" />
+		<Label fx:id="foodCarbsLabel116" layoutX="664.0" layoutY="695.0" prefHeight="17.0" prefWidth="95.0" text="Vitamin B3 (mcg)" />
+		<Label fx:id="foodCarbsLabel117" layoutX="664.0" layoutY="722.0" prefHeight="17.0" prefWidth="95.0" text="Vitamin B5 (mcg)" />
+		<Label fx:id="foodCarbsLabel118" layoutX="664.0" layoutY="749.0" prefHeight="17.0" prefWidth="95.0" text="Vitamin B6 (mcg)" />
+		<Label fx:id="foodCarbsLabel119" layoutX="664.0" layoutY="776.0" prefHeight="17.0" prefWidth="95.0" text="Vitamin B7 (mcg)" />
+		<Label fx:id="foodCarbsLabel120" layoutX="663.0" layoutY="803.0" prefHeight="17.0" prefWidth="95.0" text="Vitamin B9 (mcg)" />
+		<CheckBox fx:id="vitaminInfoCheckBox" layoutX="299.0" layoutY="804.0" mnemonicParsing="false" onAction="#viewVitaminInfo" text="View Vitamin Info" />
+		<Button fx:id="foodContextButton" alignment="CENTER" layoutX="282.0" layoutY="584.0" mnemonicParsing="false" onAction="#foodContextButtonClicked" prefHeight="24.0" prefWidth="164.0" />
+		<TextField fx:id="caloriesTextField" layoutX="589.0" layoutY="502.0" prefHeight="25.0" prefWidth="65.0" />
+		<TextField fx:id="protienTextField" layoutX="589.0" layoutY="529.0" prefHeight="25.0" prefWidth="65.0" />
+		<TextField fx:id="fatTextField" layoutX="589.0" layoutY="556.0" prefHeight="25.0" prefWidth="65.0" />
+		<TextField fx:id="carbsTextField" layoutX="589.0" layoutY="583.0" prefHeight="25.0" prefWidth="65.0" />
+		<TextField fx:id="saturatedFatTextField" layoutX="589.0" layoutY="610.0" prefHeight="25.0" prefWidth="65.0" />
+		<TextField fx:id="transFatTextField" layoutX="589.0" layoutY="637.0" prefHeight="25.0" prefWidth="65.0" />
+		<TextField fx:id="fiberTextField" layoutX="589.0" layoutY="664.0" prefHeight="25.0" prefWidth="65.0" />
+		<TextField fx:id="sugarTextField" layoutX="589.0" layoutY="691.0" prefHeight="25.0" prefWidth="65.0" />
+		<TextField fx:id="sodiumTextField" layoutX="589.0" layoutY="718.0" prefHeight="25.0" prefWidth="65.0" />
+		<TextField fx:id="cholesterolTextField" layoutX="589.0" layoutY="745.0" prefHeight="25.0" prefWidth="65.0" />
+		<TextField fx:id="calciumTextField" layoutX="589.0" layoutY="772.0" prefHeight="25.0" prefWidth="65.0" />
+		<TextField fx:id="potassiumTextField" layoutX="589.0" layoutY="799.0" prefHeight="25.0" prefWidth="65.0" />
+		<TextField fx:id="vitaminATextField" layoutX="759.0" layoutY="502.0" prefHeight="25.0" prefWidth="65.0" />
+		<TextField fx:id="vitaminCTextField" layoutX="759.0" layoutY="529.0" prefHeight="25.0" prefWidth="65.0" />
+		<TextField fx:id="vitaminDTextField" layoutX="759.0" layoutY="556.0" prefHeight="25.0" prefWidth="65.0" />
+		<TextField fx:id="vitaminETextField" layoutX="759.0" layoutY="583.0" prefHeight="25.0" prefWidth="65.0" />
+		<TextField fx:id="vitaminKTextField" layoutX="759.0" layoutY="610.0" prefHeight="25.0" prefWidth="65.0" />
+		<TextField fx:id="vitaminB1TextField" layoutX="759.0" layoutY="637.0" prefHeight="25.0" prefWidth="65.0" />
+		<TextField fx:id="vitaminB2TextField" layoutX="759.0" layoutY="664.0" prefHeight="25.0" prefWidth="65.0" />
+		<TextField fx:id="vitaminB3TextField" layoutX="759.0" layoutY="691.0" prefHeight="25.0" prefWidth="65.0" />
+		<TextField fx:id="vitaminB5TextField" layoutX="759.0" layoutY="718.0" prefHeight="25.0" prefWidth="65.0" />
+		<TextField fx:id="vitaminB6TextField" layoutX="759.0" layoutY="745.0" prefHeight="25.0" prefWidth="65.0" />
+		<TextField fx:id="vitaminB7TextField" layoutX="759.0" layoutY="772.0" prefHeight="25.0" prefWidth="65.0" />
+		<TextField fx:id="vitaminB9TextField" layoutX="759.0" layoutY="799.0" prefHeight="25.0" prefWidth="65.0" />
+		<TextField fx:id="vitaminB12TextField" layoutX="759.0" layoutY="829.0" prefHeight="25.0" prefWidth="65.0" />
+		<Label fx:id="enterFoodInfoHintLabel" alignment="CENTER" layoutX="282.0" layoutY="496.0" prefHeight="37.0" prefWidth="164.0">
+			<font>
+				<Font size="14.0" />
+			</font>
+		</Label>
+		<Label fx:id="enterFoodInfoErrorLabel" alignment="CENTER" layoutX="282.0" layoutY="530.0" prefHeight="53.0" prefWidth="164.0" textFill="RED">
+			<font>
+				<Font size="10.0" />
+			</font>
+		</Label>
+		<Label layoutX="281.0" layoutY="660.0" prefHeight="17.0" prefWidth="110.0" text="Number of Servings" />
+		<TextField fx:id="numberOfServingsTextField" layoutX="391.0" layoutY="656.0" prefHeight="25.0" prefWidth="65.0" />
+		<Label layoutX="281.0" layoutY="697.0" prefHeight="17.0" prefWidth="110.0" text="Serving Size (g)" />
+		<TextField fx:id="servingSizeTextField" layoutX="391.0" layoutY="691.0" prefHeight="25.0" prefWidth="65.0" />
+		<TextField fx:id="addFoodNameTextField" layoutX="648.0" layoutY="469.0" onKeyTyped="#displayPreviouslyLoggedFoods" onMousePressed="#hidePreviouslyLoggedFoods" prefHeight="24.0" prefWidth="180.0" />
+		<Label fx:id="servingSizeConversionHintLabel" layoutX="280.0" layoutY="718.0" prefHeight="75.0" prefWidth="180.0">
+			<font>
+				<Font size="10.0" />
+			</font>
+		</Label>
+		<ListView fx:id="previouslyLoggedFoodsListView" fixedCellSize="30.0" layoutX="648.0" layoutY="504.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="255.0" prefWidth="180.0" stylesheets="@LoginDesign.css" visible="false">
+			<cursor>
+				<Cursor fx:constant="DEFAULT" />
+			</cursor>
+		</ListView>
+		<Rectangle fx:id="hideVitaminInfoRectangle" arcHeight="5.0" arcWidth="5.0" fill="#fcfcfa" height="355.0" layoutX="659.0" layoutY="502.0" stroke="#fcfcfa" strokeType="INSIDE" visible="false" width="218.0" />
+		<Rectangle fx:id="hideAllFoodInfoRectangle" arcHeight="5.0" arcWidth="5.0" fill="#97bc62" height="418.0" layoutX="263.0" layoutY="450.0" stroke="#97bc62" strokeType="INSIDE" width="618.0" />
+
+	</children>
+</AnchorPane>

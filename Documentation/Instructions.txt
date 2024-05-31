@@ -1,0 +1,30 @@
+INFO 6250 - Team Mavericks
+
+Project: EatWise - Nourishing Nutrition Management for Healthier Lifestyles!
+
+Team Members:
+
+Abhishek Sagar Sanda - sanda.a@northeastern.edu
+Abhishek Chintapalli - chintapalli.a@northeastern.edu
+Tirdesh Pettugani - pettugani.t@northeastern.edu
+
+***********
+Instructions To Run The Project: "EatWise - Nourishing Nutrition Management for Healthier Lifestyles!"
+
+Navigate to the "EatWise" directory and locate the "view_controller.fx.FoodLoggerGUI" file.
+
+Ensure that you have the JavaFX SDK (version 21.0.1) installed on your system.
+
+Add the external JARs listed in the "javafx-sdk-21.0.1" folder to your Java Build Path under Preferences -> Java -> Build Path -> User Libraries.
+
+After successfully configuring the project, run the view_controller.fx.FoodLoggerGUI file to launch the application.
+
+Credentials - aaa|Test@123
+
+***********
+
+Additional Resources:
+
+Presentation and Report: The project includes a comprehensive presentation and report detailing the objectives, development process, and outcomes. Please refer to these documents for a detailed overview of EatWise.
+
+We hope you enjoy exploring EatWise, our solution for nourishing nutrition management tailored to healthier lifestyles. If you encounter any issues or have questions, feel free to reach out to any of our team members.
